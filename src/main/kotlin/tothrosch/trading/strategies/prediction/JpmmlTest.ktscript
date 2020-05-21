@@ -1,0 +1,57 @@
+// package tothrosch.trading.strategies.prediction
+
+import java.io.File
+import java.io.FileInputStream
+
+
+
+
+/*
+println("test")
+val file = File("/home/ndrsh/pipeline.pmml");
+val inputStream = FileInputStream(file)
+val pmml = org.jpmml.model.PMMLUtil.unmarshal(inputStream)
+val battery = DefaultVisitorBattery()
+battery.applyTo(pmml)
+val evaluator: Evaluator = ModelEvaluatorBuilder(pmml).build()
+
+// Perforing the self-check
+evaluator.verify();
+
+val input = listOf(-0.5092452152236026,
+                   -2593.2576391236203,
+                   -1.8476788362375574E-6,
+                   -6.613646855018617E-6,
+                   -0.024548612306336738,
+                   0.05320088649002719,
+                   60.251172942518046,
+                   4090.1751395955735,
+                   3485.1260985396707,
+                   -2.4522328655190684,
+                   69741.75969677877,
+                   279189.21249950654,
+                   -1.0739579474690273,
+                   0.1600835637718637,
+                   -2.1233485282672127,
+                   -1.0773274329347532E-6)
+
+val args = hashMapOf<FieldName, FieldValue>()
+// Printing input (x1, x2, .., xn) fields
+val inputFields: List<InputField> = evaluator.inputFields
+System.out.println("Input field(s): " + inputFields);
+for (i in inputFields.indices) {
+	args.put(inputFields[i].name, inputFields[i].prepare(input[i]))
+}
+val targetFields: List<TargetField> = evaluator.targetFields
+System.out.println("Target field(s): " + targetFields);
+
+// Printing secondary result (eg. probability(y), decision(y)) fields
+val outputFields = evaluator.outputFields
+System.out.println("Output fields: " + outputFields);
+val result = evaluator.evaluate(args)
+
+println()
+*/
+
+
+

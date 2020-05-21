@@ -1,0 +1,35 @@
+Bitmex
+
+sym		symbol: String
+s		state: String
+mp		markPrice: Double
+oi		openInterest: Long
+vol		volume24h: Long
+vwap	vwap: Double	// volume weighted average price
+hp		highPrice: Double
+lp		lowPrice: Double
+ls		lotSize: Double
+ts		tickSize: Double
+isq		isQuanto: Boolean
+isi		isInverse: Boolean
+mf		makerFee: Double
+tf		takerFee: Double
+sf		settlementFee: Double
+c		capped: Boolean
+ldp		limitDownPrice: Double?
+lup		limitUpPrice: Double?
+
+
+Swap
+
+fr		fundingRate: Double
+ifr		indicativeFundingRate: Double
+
+
+Future
+
+isp		indicativeSettlePrice: Doubleo
+
+Side
+
+oulp	optionUnderlyingPrice: Double
